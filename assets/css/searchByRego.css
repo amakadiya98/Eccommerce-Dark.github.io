@@ -1,0 +1,691 @@
+.main-block .optionSection {
+  padding: 62px 0;
+  background: #393939;
+  color: #fff;
+}
+.searchByRego-page .sub-input-box {
+  padding: 0;
+}
+.searchByRego-page .sub-input-box input {
+  padding: 15px 10px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  background-color: transparent;
+  padding-left: 20px;
+  position: absolute;
+  left: 5%;
+  top: 10px;
+  width: 90%;
+  font-size: 30px;
+  color: #fff;
+}
+
+.searchByRego-page .sub-input-box img {
+  width: 100%;
+}
+
+.main-block .optionSection .head {
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 130%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.main-block .optionSection .box-part {
+  width: 80%;
+  margin: 25px auto 0;
+  display: flex;
+  gap: 60px;
+}
+
+.main-block .optionSection .box-part .box {
+  background: #1e1c1c;
+  border-radius: 6px;
+  overflow: hidden;
+  width: 44%;
+}
+
+.main-block .optionSection .box-part .box .top {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+  background: #28a5d8;
+  gap: 20px;
+}
+
+.main-block .optionSection .box-part .box .top .head-text {
+  color: #fff;
+  font-size: 25px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.main-block .optionSection .box-part .box .box-body {
+  margin-top: 64px;
+  padding: 0 45px;
+}
+
+.main-block .optionSection .box-part .box .box-body .lable {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 17px;
+  margin-bottom: 10px;
+}
+
+.main-block .optionSection .box-part .box .box-body .field {
+  display: flex;
+  gap: 22px;
+  margin-top: 21px;
+  align-items: center;
+}
+
+.main-block .optionSection .box-part .box .box-body .field .label {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.main-block .optionSection .box-part .box .box-body .field #region {
+  border-radius: 6px;
+  background: #1e1c1c;
+  padding: 5px 15px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15px;
+  width: 68%;
+  outline: 0;
+  box-shadow: none;
+}
+
+.main-block .optionSection .box-part .box .box-body .button-part {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.main-block .optionSection .box-part .box .box-body .button-part .Btn {
+  background-color: #28a5d8;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 40px;
+  margin-bottom: 12px;
+}
+
+.main-block .optionSection .box-part .box .box-body .field.SB {
+  justify-content: flex-end;
+}
+
+.look-up-section {
+  background-color: #1e1c1c;
+  padding: 80px 0;
+}
+
+.look-up-section .head .head-text {
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 57px;
+  text-transform: uppercase;
+}
+
+.look-up-section .head .text {
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 130%;
+  width: 76%;
+  margin: 12px auto 26px;
+}
+
+.look-up-section .video-part {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.look-up-section .video-part .Play-Button {
+  position: absolute;
+  top: 38%;
+  left: 48%;
+}
+
+.look-up-section .video-part .vid {
+  width: 100%;
+}
+
+.how-to-steps {
+  padding: 84px 100px;
+  background-color: #393939;
+}
+
+.how-to-steps .steps {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.how-to-steps .steps .left-part,
+.how-to-steps .steps .right-part {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.how-to-steps .steps .step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 50%;
+}
+
+.how-to-steps .steps .step .head {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+
+.how-to-steps .steps .step .data {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 6px;
+}
+
+.how-to-steps .steps .step .data.cut {
+  width: 56%;
+}
+
+.newsletter {
+  background-image: url("../images/searchByRego-page/newsletter.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 144px 0;
+}
+
+.newsletter .content {
+  display: flex;
+  gap: 90px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newsletter .content .title {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 74px;
+  letter-spacing: 0em;
+  color: #fff;
+}
+
+.newsletter .content .field {
+  display: flex;
+  align-items: center;
+  width: 82%;
+}
+
+.newsletter .content .field .Email {
+  padding: 28px 50px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  width: 100%;
+}
+.newsletter .content .field .Email:focus-visible {
+  outline: 0;
+}
+.newsletter .content .field .Btn {
+  padding: 28px 67px;
+  background-color: #28a5d8;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  line-height: 27px;
+  font-weight: 500;
+  margin-left: -5px;
+}
+
+/* ----- Responsive design start here ----- */
+@media (max-width: 1440px) {
+  .newsletter .content .title,
+  .look-up-section .head .head-text,
+  .searchByRego-page .common-banner-section .banner-content h2 {
+    font-size: 44px;
+  }
+}
+@media (max-width: 1280px) {
+  .main-block .optionSection .box-part {
+    width: 100%;
+  }
+  .main-block .optionSection .box-part .box .box-body .field {
+    justify-content: flex-end;
+  }
+  .main-block .optionSection .box-part .box {
+    width: 50%;
+  }
+  .main-block .optionSection .box-part .box .box-body {
+    margin-top: 50px;
+    padding: 0 20px;
+  }
+  .look-up-section .head .text {
+    width: 85%;
+  }
+  .main-block .optionSection .box-part .box .box-body .field {
+    gap: 6px;
+  }
+  .how-to-steps .steps {
+    gap: 30px;
+  }
+}
+@media (max-width: 1024px) {
+  .main-block .optionSection .head,
+  .look-up-section .head .text {
+    width: 100%;
+  }
+  .how-to-steps .steps .step .data.cut {
+    width: 70%;
+  }
+  .how-to-steps .steps {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .newsletter .content .title,
+  .look-up-section .head .head-text,
+  .searchByRego-page .common-banner-section .banner-content h2 {
+    font-size: 34px;
+  }
+  .newsletter .content {
+    gap: 30px;
+  }
+  .newsletter .content .field .Email {
+    padding: 20px 35px;
+  }
+  .newsletter .content .field .Btn {
+    padding: 20px 50px;
+  }
+  .how-to-steps .steps .left-part,
+  .how-to-steps .steps .right-part {
+    width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  .main-block .optionSection .box-part {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .main-block .optionSection .box-part .box {
+    width: 100%;
+  }
+  .searchByRego-page .sub-input-box input {
+    top: 25%;
+    font-size: 40px;
+  }
+  .main-block .optionSection .box-part .box .box-body .field {
+    gap: 20px;
+  }
+  .newsletter .content .field {
+    width: 100%;
+  }
+  .look-up-section .video-part .Play-Button {
+    left: 45%;
+  }
+}
+@media (max-width: 768px) {
+  .searchByRego-page
+    .common-banner-section
+    .banner-content
+    .breadcrumb
+    .breadcrumb-item {
+    font-size: 15px;
+  }
+  .newsletter .content .title,
+  .look-up-section .head .head-text,
+  .searchByRego-page .common-banner-section .banner-content h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .how-to-steps .steps .left-part,
+  .how-to-steps .steps .right-part {
+    justify-content: center;
+    gap: 30px;
+  }
+  .searchByRego-page .sub-input-box input {
+    top: 18%;
+  }
+}
+@media (max-width: 500px) {
+  .searchByRego-page .sub-input-box input {
+    top: 10%;
+  }
+  .main-block .optionSection .box-part .box .box-body .field {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .main-block .optionSection .box-part .box .box-body .field #region {
+    width: 100%;
+  }
+  .main-block .optionSection .box-part .box .box-body .button-part {
+    justify-content: center;
+  }
+  .main-block .optionSection {
+    padding: 35px 0;
+  }
+  .look-up-section {
+    padding: 40px 0;
+  }
+  .how-to-steps {
+    padding: 40px 20px;
+  }
+  .newsletter {
+    padding: 50px 0;
+  }
+  .newsletter .content .field {
+    gap: 15px;
+    flex-direction: column;
+  }
+  .how-to-steps .steps .left-part,
+  .how-to-steps .steps .right-part {
+    flex-direction: column;
+    align-items: center;
+  }
+  .newsletter .content .field .Btn{
+    font-size: 18px;
+    padding: 10px 30px;
+  }
+  .newsletter .content .field .Email{
+    padding: 10px 30px;
+  }
+}
+@media (max-width: 425px) {
+  .look-up-section .video-part .Play-Button {
+    left: 40%;
+    top: 32%;
+    width: 18%;
+  }
+  .searchByRego-page
+    .common-banner-section
+    .banner-content
+    .breadcrumb
+    .breadcrumb-item {
+    font-size: 12px;
+  }
+  .how-to-steps .steps .step .data.cut {
+    width: 100%;
+  }
+  .searchByRego-page .common-banner-section .banner-content h2 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 400px) {
+  .searchByRego-page .sub-input-box input {
+    font-size: 21px;
+    line-height: 25px;
+  }
+  .main-block .optionSection .box-part .box .top {
+    gap: 15px;
+  }
+  .main-block .optionSection .box-part .box .top .head-text {
+    font-size: 20px;
+  }
+}
+
+/* ------ serach by brand page css start ------- */
+
+.searchBrand-page {
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #393939;
+  color: #fff;
+}
+.searchBrand-page .main-block .common-banner-section {
+  background-image: url("../images//searchByBrand/Mask\ group.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.searchBrand-page .main-block .common-banner-section .banner-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding: 24px;
+}
+
+.searchBrand-page .brand-section {
+  width: 100%;
+  background-color: #393939;
+  color: #fff;
+  padding: 50px 130px;
+}
+.searchBrand-page .brand-section .content-block {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 30px;
+}
+.brand-section .content-block .section-title {
+  color: #fff;
+  font-family: "Ubuntu";
+  font-size: 30px;
+  font-weight: 700;
+}
+.brand-section .content-block .custom-row {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 20px;
+}
+.brand-section .content-block .custom-row .image-box {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+}
+.brand-section .content-block .custom-row .image-box img {
+  width: 100%;
+}
+.brand-section .content-block .letter-wise-brand-nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+  padding: 50px 0 40px;
+  border-bottom: 2px solid rgba(97, 97, 97, 0.5);
+}
+.brand-section .content-block .letter-wise-brand-nav .brand-nav {
+  color: #fff;
+  font-family: "Ubuntu";
+  font-size: 20px;  
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.brand-section .content-block .letter-wise-brand-nav .brand-nav.active {
+  background-color: #28a5d8;
+  color: #fff;
+}
+.brand-section
+  .content-block
+  .letter-wise-brand-nav
+  .brand-nav:not(.active):hover {
+  background-color: #1e1c1c;
+  color: #fff;
+}
+.brand-section .letter-wise-brand-nav button {
+  all: unset;
+  font-size: 22px;
+  color: #1e1c1c;
+  cursor: pointer;
+}
+.brand-section .letter-wise-brand-nav button:hover {
+  color: #28a5d8;
+}
+.brand-section .letter-wise-brand-nav .prev-btn {
+  position: absolute;
+  top: 60%;
+  left: -40px;
+}
+.brand-section .letter-wise-brand-nav .next-btn {
+  position: absolute;
+  top: 60%;
+  right: -40px;
+}
+.brand-section .content-block .brand-lists {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 130px;
+  width: 100%;
+}
+.brand-section .brand-lists .list-box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+}
+
+.brand-section .brand-lists .list-box ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+.brand-section .brand-lists .list-box ul li {
+  color: #fff;
+  font-family: "Ubuntu";
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.1px;
+}
+
+/* ---- responsive css start here ---- */
+@media (max-width: 1200px) {
+  .brand-section .content-block .brand-lists {
+    gap: 80px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .brand-section .content-block .letter-wise-brand-nav .brand-nav {
+    width: 30px;
+    height: 30px;
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 992px) {
+  .brand-section .content-block .section-title {
+    font-size: 26px;
+  }
+  .brand-section .content-block .letter-wise-brand-nav {
+    padding: 35px 0 20px;
+  }
+  .brand-section .letter-wise-brand-nav .next-btn,
+  .brand-section .letter-wise-brand-nav .prev-btn {
+    top: 55%;
+    font-size: 18px;
+  }
+  .brand-section .letter-wise-brand-nav .next-btn {
+    right: -25px;
+  }
+  .brand-section .letter-wise-brand-nav .prev-btn {
+    left: -25px;
+  }
+  .brand-section .brand-lists .list-box ul li {
+    font-size: 16px;
+  }
+  .brand-section .brand-lists .list-box ul {
+    gap: 15px;
+  }
+  .searchBrand-page .brand-section {
+    padding: 50px 85px;
+  }
+}
+
+@media (max-width: 768px) {
+  .brand-section .content-block .custom-row {
+    grid-template-columns: auto auto auto;
+  }
+  .brand-section .content-block .letter-wise-brand-nav {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    row-gap: 15px;
+  }
+}
+
+@media (max-width: 650px) {
+  .searchBrand-page .brand-section {
+    padding: 50px 60px;
+  }
+  .brand-section .content-block .brand-lists {
+    gap: 40px;
+  }
+}
+
+@media (max-width: 526px) {
+  .searchBrand-page .brand-section {
+    padding: 30px;
+  }
+  .brand-section .content-block .section-title {
+    font-size: 24px;
+  }
+  .searchBrand-page .brand-section .content-block {
+    gap: 20px;
+  }
+  .brand-section .content-block .custom-row {
+    grid-template-columns: auto auto;
+    gap: 20px;
+  }
+  .brand-section .content-block .letter-wise-brand-nav {
+    padding: 20px;
+  }
+  .brand-section .letter-wise-brand-nav .prev-btn {
+    left: -10px;
+  }
+  .brand-section .letter-wise-brand-nav .next-btn {
+    right: -10px;
+  }
+  .brand-section .content-block .letter-wise-brand-nav .brand-nav {
+    width: 25px;
+    height: 25px;
+    font-size: 14px;
+  }
+  .brand-section .content-block .brand-lists {
+    grid-template-columns: auto auto;
+    gap: 20px;
+  }
+  .brand-section .brand-lists .list-box ul li {
+    font-size: 14px;
+  }  
+}
