@@ -29,9 +29,14 @@
   padding: 0;
   margin: 0;
 }
-.main-block .hero-section .banner-image {
+.hero-section .carousel {
+  height: 100%;
+}
+.main-block .hero-section img.banner-image {
   object-fit: cover;
   object-position: center;
+  height: 100%;
+  width: 100%;
 }
 /* ------- hero section css end ------- */
 
@@ -1299,6 +1304,21 @@ iframe {
   }
   .follow-us-img img {
     width: 50px;
+  }
+  .main-block .hero-section {
+    min-height: 50vh;
+    max-height: 50vh;
+    height: 50vh;
+  }
+  .carousel-inner {
+    height: 100%;
+  }
+  .carousel-item {
+    height: 100%;
+  }
+  .main-block .hero-section img.banner-image{
+    width: 100%;
+    object-position: 72% center;
   }
 }
 
