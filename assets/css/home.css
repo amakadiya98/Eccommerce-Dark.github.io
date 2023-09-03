@@ -38,6 +38,16 @@
   height: 100%;
   width: 100%;
 }
+.main-block .hero-section .carousel-inner .carousel-item .banner-carousal-text p{
+  margin-bottom: 1rem;
+}
+.main-block .hero-section .carousel-inner .carousel-item .banner-carousal-text h1{
+  margin-bottom: 1.2rem;
+}
+.main-block .hero-section .carousel-inner .carousel-item .banner-carousal-text h4{
+  margin-bottom: 1rem;
+}
+
 /* ------- hero section css end ------- */
 
 /* ------- category section css start ------- */
@@ -945,6 +955,21 @@ iframe {
   .main-block .shop-btn {
     padding: 10px 33px;
   }
+  .main-block .hero-section .carousel-inner .carousel-item .banner-carousal-text p{
+    font-size: 13px;
+    margin-bottom: 0.2rem;
+  }
+  .main-block .hero-section .carousel-inner .carousel-item .banner-carousal-text h1{
+    font-size: 33px;
+    margin-bottom: 0.3rem;
+  }
+  .main-block .hero-section .carousel-inner .carousel-item .banner-carousal-text h4{
+    font-size: 17px;
+    margin-bottom: 0.5rem;
+  }
+  .main-block .hero-section .carousel-inner .carousel-item .banner-carousal-text a{
+    font-size: 13px;
+  }
   .our-product-section .product-list-part .list-block .item-box {
     height: 640px;
     min-height: 640px;
@@ -1070,6 +1095,21 @@ iframe {
 }
 
 @media screen and (max-width: 992px) {
+  .main-block .hero-section .carousel-inner .carousel-item .banner-carousal-text p{
+    font-size: 9px;
+    margin-bottom: 0.1rem;
+  }
+  .main-block .hero-section .carousel-inner .carousel-item .banner-carousal-text h1{
+    font-size: 23px;
+    margin-bottom: 0.2rem;
+  }
+  .main-block .hero-section .carousel-inner .carousel-item .banner-carousal-text h4{
+    font-size: 14px;
+    margin-bottom: 0.3rem;
+  }
+  .main-block .hero-section .carousel-inner .carousel-item .banner-carousal-text a{
+    font-size: 9px;
+  }
   .category-section .content {
     grid-template-columns: 50% 50%;
     row-gap: 45px;
@@ -1116,6 +1156,16 @@ iframe {
   }
 }
 @media screen and (max-width: 768px) {
+  
+  .main-block .hero-section .carousel-inner .carousel-item .banner-carousal-text p{
+    margin-bottom: 5px;
+  }
+  .main-block .hero-section .carousel-inner .carousel-item .banner-carousal-text h1{
+    margin-bottom: 5px;
+  }
+  .main-block .hero-section .carousel-inner .carousel-item .banner-carousal-text h4{
+    margin-bottom: 5px;
+  }
   .our-product-section .product-list-part .list-block .item-box,
   .blog-post-section .blog-list-part .blog-card {
     width: 70%;
@@ -1142,6 +1192,9 @@ iframe {
   }
 }
 @media screen and (max-width: 576px) {
+  .main-block .hero-section .carousel-inner .carousel-item .banner-carousal-text{
+    margin-top: 10px !important;
+  }
   .customer-review .content-part .right-part ul{
     padding: 0;
     margin: 0;
