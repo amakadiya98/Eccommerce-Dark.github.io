@@ -6,10 +6,10 @@
   justify-content: center;
   text-align: center;
   text-transform: uppercase;
-  padding: 14px 53px;
+  padding: 12px 45px;
   background-color: var(--primary-color);
   color: #fff;
-  font-size: 20px;
+  font-size: 16px;
   font-family: Ubuntu;
   font-style: normal;
   font-weight: 400;
@@ -90,7 +90,7 @@
 }
 .category-section .content .product-box .product-details h5 {
   color: #fff;
-  font-size: 36px;
+  font-size: 3p0x;
   font-family: Ubuntu;
   font-weight: 500;
 }
@@ -122,7 +122,7 @@
 }
 .our-product-section .product-list-part .types {
   color: #928f8f;
-  font-size: 28px;
+  font-size: 24px;
   font-family: "Ubuntu";
   font-weight: 500;
   text-transform: uppercase;
@@ -837,7 +837,7 @@ iframe {
 
 @media screen and (max-width: 1440px) {
   .our-product-section .product-list-part .types {
-    font-size: 24px;
+    font-size: 20px;
   }
   .our-product-section .product-list-part .list-block .item-box {
     height: 690px;
