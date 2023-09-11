@@ -8,6 +8,7 @@
   display: flex;
   flex-direction: column;
   gap: 50px;
+  background-color: var(--dark-bg);
 }
 
 .cart-page .content-section .page-nav-part {
@@ -19,7 +20,7 @@
 }
 .cart-page .content-section .page-nav-part .next-page-link {
   text-decoration: none;
-  color: #000;
+  color: #FFF;
   font-size: 24px;
   font-family: "Ubuntu";
   font-weight: 500;
@@ -31,7 +32,7 @@
 .cart-page .content-section .page-nav-part .dot-line {
   width: 8%;
   height: 1px;
-  border: 1px dashed #000;
+  border: 1px dashed #FFF;
 }
 .cart-page .content-section .custom-row {
   display: grid;
@@ -57,6 +58,7 @@
   background-color: #f6f6f6;
   border-top: 8px solid #28a5d8;
   padding: 20px;
+  background-color: #1e1c1c;
 }
 .theme-accordian-block .accordion {
   width: 100%;
@@ -73,7 +75,7 @@
   font-size: 24px;
   font-family: "Ubuntu";
   font-weight: 700;
-  color: #000 !important;
+  color: var(--primary-color) !important;
 }
 .theme-accordian-block .item-inside-accordion {
   display: flex;
@@ -96,7 +98,7 @@
   gap: 10px;
 }
 .item-inside-accordion .top-selection-part .left-selection label {
-  color: #393939;
+  color: #FFF;
   font-family: "Ubuntu";
   font-size: 22px;
   font-style: normal;
@@ -118,7 +120,7 @@
 .item-inside-accordion .top-selection-part .right-button button {
   all: unset;
   cursor: pointer;
-  color: #686868;
+  color: #FFF;
   font-family: "Ubuntu";
   font-size: 18px;
   font-style: normal;
@@ -171,7 +173,7 @@
   width: 154px;
   height: 40px;
   border-radius: 3px;
-  background-color: #e9e9e9;
+  /* background-color: #e9e9e9; */
   justify-content: space-between;
 }
 .cart-card .quantity button {
@@ -190,12 +192,14 @@
 
 .cart-card .quantity button:first-child {
   border-radius: 3px 0 0 3px;
+  background-color: #1e1c1c;
 }
 .cart-card .quantity button:last-child {
   border-radius: 0 3px 3px 0;
+  background-color: #1e1c1c;
 }
 .cart-card .quantity p {
-  color: #000;
+  color: #FFF;
   font-family: "Ubuntu";
   font-size: 24px;
   font-style: normal;
@@ -212,7 +216,7 @@
 }
 
 .cart-card .desc-block p {
-  color: #393939;
+  color: #FFF;
   font-family: "Poppins";
   font-size: 20px;
   font-style: normal;
@@ -231,7 +235,7 @@
 }
 
 .cart-card .desc-block h5 {
-  color: #393939;
+  color: #FFF;
   font-family: "Ubuntu";
   font-size: 28px;
   font-style: normal;
@@ -265,7 +269,7 @@
   padding: 0;
 }
 .price-block .payment-options .payment-type fieldset p {
-  color: #393939;
+  color: #FFF;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -295,10 +299,10 @@
   gap: 20px;
   padding: 25px;
   border-radius: 6px;
-  background: #f6f6f6;
+  background: #1e1c1c;
 }
 .price-block .price-card h5 {
-  color: #393939;
+  color: #FFF;
   font-family: "Ubuntu";
   font-size: 24px;
   font-style: normal;
@@ -310,6 +314,9 @@
   display: flex;
   flex-direction: column;
   gap: 15px;
+}
+.price-block .price-card .button-block .btn:hover{
+  color: #FFF;
 }
 .price-card .amount-block {
   display: flex;
@@ -323,7 +330,7 @@
   justify-content: space-between;
 }
 .price-card .amount-block fieldset p {
-  color: #393939;
+  color: #FFF;
   font-family: "Poppins";
   font-size: 20px;
   font-style: normal;
@@ -331,7 +338,7 @@
   line-height: normal;
 }
 .price-card .amount-block fieldset h6 {
-  color: #393939;
+  color: #FFF;
   font-family: "Ubuntu";
   font-size: 20px;
   font-style: normal;
@@ -482,7 +489,7 @@
   border-top: 8px solid #28a5d8;
 }
 .content-section .left-part .bordered-card p {
-  color: #393939;
+  color: #FFF;
   font-family: "Poppins";
   font-size: 24px;
   font-style: normal;
@@ -501,9 +508,9 @@
   text-transform: capitalize;
 }
 
-.checkout-page .theme-accordian-block {
+/* .checkout-page .theme-accordian-block {
   background-color: #fff;
-}
+} */
 
 .checkout-page
   .theme-accordian-block
@@ -521,7 +528,7 @@
   gap: 20px;
 }
 .billingDetails-block h5 {
-  color: #393939;
+  color: #FFF;
   font-family: "Ubuntu";
   font-size: 24px;
   font-style: normal;
@@ -541,7 +548,7 @@
 .billingDetails-block input,
 .billingDetails-block select {
   width: 100%;
-  background-color: #f6f6f6;
+  background-color: #1e1c1c;
   border: none;
   outline: none;
   box-shadow: none;
@@ -561,6 +568,10 @@
   flex-direction: column;
 }
 
+.checkout-page .content-section .right-part h5{
+  color: #FFF;
+}
+
 .checkout-page .content-section .right-part .product-container {
   display: flex;
   width: 100%;
@@ -568,6 +579,11 @@
   gap: 65px;
   padding-top: 25px;
 }
+.checkout-page .content-section .right-part .bottom-part h6,
+.checkout-page .content-section .right-part .bottom-part p,
+.checkout-page .content-section .right-part .product-container .price-part fieldset p{ 
+  color: #FFF;
+}  
 .product-container .product-card {
   display: flex;
   gap: 30px;
@@ -590,6 +606,7 @@
   flex-direction: column;
   width: 70%;
   gap: 20px;
+  color: #FFF;
 }
 .product-container .product-card .desc-block fieldset {
   display: flex;
@@ -762,6 +779,7 @@
   .billingDetails-block h5,
   .right-part h5{
     font-size: 18px;
+    color: #FFF;
   }
   .checkout-page .theme-accordian-block .accordion-flush .accordion-item .accordion-button{
     font-size: 16px;

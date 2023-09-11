@@ -4,23 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="./assets/css/select2.min.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
     <link rel="stylesheet" href="./assets/css/owl.carousel.min.css" />
     <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css" />
     <link rel="stylesheet" href="./assets/css/common.css" />
     <link rel="stylesheet" href="./assets/css/home.css" />
     <link rel="stylesheet" href="./assets/css/searchByRego.css" />
+    <link rel="stylesheet" href="./assets/css/searchAfter.css" />
+    <link rel="stylesheet" href="./assets/css/blogpage.css" />
     <title>Document</title>
   </head>
 
-  <body class="searchBrand-page">
+  <body class="Blog-Page blog-details-page">
     <header class="header-section">
       <div class="experince-tab">
         <div class="text-content">
@@ -57,20 +60,21 @@
             <img src="./assets//images/header/search.svg" alt="search" />
           </button>
           <select class="country-select"></select>
-          <button class="page-nav-btn" id="myGarage">
+          <button class="page-nav-btn mobile-hide-icon" id="myGarage">
             <img
               src="./assets/images/header/Garage.svg"
               alt="Garage"
+              class="mobile-hide"
             />
           </button>
-          <button class="page-nav-btn ">
+          <button class="page-nav-btn mobile-hide-icon">
             <img
               src="./assets/images/header/Store.svg"
               alt="Store"
-              
+              class="mobile-hide"
             />
           </button>
-          <button class="page-nav-btn">
+          <button class="page-nav-btn small-device-hide">
             <img src="./assets/images/header/Profile.svg" alt="Profile" />
           </button>
           <button class="page-nav-btn" id="cartBtn">
@@ -1466,14 +1470,16 @@
               </div>
             </fieldset>
             <div class="d-flex justify-content-end">
-              <button class="btn btn-info cyan-btn" id="filter-login-btn">login</button>
+              <button class="btn btn-info cyan-btn" id="filter-login-btn">
+                login
+              </button>
             </div>
           </div>
         </div>
         <div class="filter-modal with-login hide">
           <div class="modal-heading">
             <h5>Select to app.(Go to MYy Garage)</h5>
-            <button class="filter-modal-close" >X</button>
+            <button class="filter-modal-close">X</button>
           </div>
           <div class="filter-content">
             <p class="content-text">
@@ -1486,10 +1492,30 @@
                 <button class="btn btn-info cyan-btn">Add</button>
               </div>
               <ul>
-                <li><p>category_1</p><button  class="btn btn-transparent"><img src="./assets/images/common/Delete.svg" alt="delete" /></button></li>
-                <li><p>category_2</p><button  class="btn btn-transparent"><img src="./assets/images/common/Delete.svg" alt="delete" /></button></li>
-                <li><p>category_3</p><button  class="btn btn-transparent"><img src="./assets/images/common/Delete.svg" alt="delete" /></button></li>
-                <li><p>category_4</p><button  class="btn btn-transparent"><img src="./assets/images/common/Delete.svg" alt="delete" /></button></li>
+                <li>
+                  <p>category_1</p>
+                  <button class="btn btn-transparent">
+                    <img src="./assets/images/common/Delete.svg" alt="delete" />
+                  </button>
+                </li>
+                <li>
+                  <p>category_2</p>
+                  <button class="btn btn-transparent">
+                    <img src="./assets/images/common/Delete.svg" alt="delete" />
+                  </button>
+                </li>
+                <li>
+                  <p>category_3</p>
+                  <button class="btn btn-transparent">
+                    <img src="./assets/images/common/Delete.svg" alt="delete" />
+                  </button>
+                </li>
+                <li>
+                  <p>category_4</p>
+                  <button class="btn btn-transparent">
+                    <img src="./assets/images/common/Delete.svg" alt="delete" />
+                  </button>
+                </li>
               </ul>
             </fieldset>
           </div>
@@ -1497,196 +1523,218 @@
       </section>
     </header>
     <main class="main-block">
-      <section class="common-banner-section searchByRego">
+      <section class="common-banner-section Blog">
         <div class="banner-content">
           <div class="breadcrumbs-part d-flex justify-content-center">
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="#">HOME</a></li>
+                <li class="breadcrumb-item"><a href="#">BLOGS</a></li>
                 <li class="breadcrumb-item" aria-current="page">
-                  SEARCH BY BRAND
+                  MAKE THE MOST OF EOFY WITH SUPERIOR ENGINEERING
                 </li>
               </ol>
             </nav>
           </div>
-          <h2>SHOP BY BRAND</h2>
+          <h2>MAKE THE MOST OF EOFY WITH SUPERIOR ENGINEERING</h2>
         </div>
       </section>
-      <section class="brand-section">
-        <div class="content-block">
-          <h4 class="section-title">Popular Brands</h4>
-          <div class="custom-row">
-            <div class="image-box">
-              <img
-                src="./assets/images/searchByBrand/Group 446.png"
-                alt="brand box image"
-              />
-            </div>
-            <div class="image-box">
-              <img
-                src="./assets/images/searchByBrand/Group 447.png"
-                alt="brand box image"
-              />
-            </div>
-            <div class="image-box">
-              <img
-                src="./assets/images/searchByBrand/Group 448.png"
-                alt="brand box image"
-              />
-            </div>
-            <div class="image-box">
-              <img
-                src="./assets/images/searchByBrand/Group 449.png"
-                alt="brand box image"
-              />
-            </div>
-            <div class="image-box">
-              <img
-                src="./assets/images/searchByBrand/Group 450.png"
-                alt="brand box image"
-              />
-            </div>
-            <div class="image-box">
-                <img
-                  src="./assets/images/searchByBrand/Group 451.svg"
-                  alt="brand box image"
-                />
+      <section class="blog-section">
+        <div class="custom-row">
+          <div class="left-filter-part">
+            <div class="box">
+              <div class="header">CATEGORIES</div>
+              <div class="link-part">
+                <a href="#" class="link">Superior News</a>
+                <a href="#" class="link">Superior Products</a>
+                <a href="#" class="link">Superior Technical Articles</a>
+                <a href="#" class="link">Offroad Events</a>
               </div>
-              <div class="image-box">
-                <img
-                  src="./assets/images/searchByBrand/Group 452.png"
-                  alt="brand box image"
-                />
-              </div>
-              <div class="image-box">
-                <img
-                  src="./assets/images/searchByBrand/Group 453.png"
-                  alt="brand box image"
-                />
-              </div>
-              <div class="image-box">
-                <img
-                  src="./assets/images/searchByBrand/Group 454.png"
-                  alt="brand box image"
-                />
-              </div>
-              <div class="image-box">
-                <img
-                  src="./assets/images/searchByBrand/Group 455.png"
-                  alt="brand box image"
-                />
-              </div>
+            </div>
           </div>
-          <div class="letter-wise-brand-nav">
-            <button class="prev-btn">
-                <i class="fas fa-chevron-left"></i>
-            </button>
-            <button class="next-btn">
-                <i class="fas fa-chevron-right"></i>
-            </button>
-            <a href="#" class="brand-nav active">A</a>
-            <a href="#" class="brand-nav">B</a>
-            <a href="#" class="brand-nav">C</a>
-            <a href="#" class="brand-nav">d</a>
-            <a href="#" class="brand-nav">e</a>
-            <a href="#" class="brand-nav">f</a>
-            <a href="#" class="brand-nav">g</a>
-            <a href="#" class="brand-nav">h</a>
-            <a href="#" class="brand-nav">i</a>
-            <a href="#" class="brand-nav">j</a>
-            <a href="#" class="brand-nav">k</a>
-            <a href="#" class="brand-nav">l</a>
-            <a href="#" class="brand-nav">m</a>
-            <a href="#" class="brand-nav">n</a>
-            <a href="#" class="brand-nav">o</a>
-            <a href="#" class="brand-nav">p</a>
-            <a href="#" class="brand-nav">q</a>
-            <a href="#" class="brand-nav">r</a>
-            <a href="#" class="brand-nav">s</a>
-            <a href="#" class="brand-nav">t</a>
-            <a href="#" class="brand-nav">u</a>
-            <a href="#" class="brand-nav">v</a>
-            <a href="#" class="brand-nav">w</a>
-            <a href="#" class="brand-nav">x</a>
-            <a href="#" class="brand-nav">y</a>
-            <a href="#" class="brand-nav">z</a>
-            <a href="#" class="brand-nav">#</a>
-          </div>
-          <div class="brand-lists">
-            <div class="list-box">
-                <ul>
-                    <li>AAP</li>
-                    <li>Active</li>
-                    <li>Aeroflow</li>
-                    <li>AFL</li>
-                    <li>Akai</li>
-                    <li>AI-Ko</li>
-                    <li>Ambi Pur</li>
-                    <li>Armor All</li>
-                    <li>Austral</li>
-                    <li>Autoline</li>
-                    <li>Auto Solutions</li>
-                </ul>
-            </div>
-            <div class="list-box">
-                <ul>
-                    <li>ACL</li>
-                    <li>Adrad</li>
-                    <li>Aeromotive</li>
-                    <li>Airbag Man</li>
-                    <li>Alcoimit</li>
-                    <li>All Blacks</li>
-                    <li>Am pfibian</li>
-                    <li>ARP</li>
-                    <li>Autoglym</li>
-                    <li>Autolite</li>
-                    <li>Autotecnica</li>
-                </ul>
-            </div>
-            <div class="list-box">
-                <ul>
-                    <li>Acme</li>
-                    <li>AE</li>
-                    <li>Aerpro</li>
-                    <li>Air Boy</li>
-                    <li>A-League</li>
-                    <li>AII Crash</li>
-                    <li>APV</li>
-                    <li>ATC</li>
-                    <li>Auto Kolone</li>
-                    <li>Autometer</li>
-                </ul>
-            </div>
-            <div class="list-box">
-                <ul>
-                    <li>ACS</li>
-                    <li>Aerial</li>
-                    <li>AFI</li>
-                    <li>Aisin</li>
-                    <li>AIemIube</li>
-                    <li>AItrex</li>
-                    <li>Ark</li>
-                    <li>AtIantic</li>
-                    <li>Auto Lens</li>
-                    <li>AutosoI</li>
-                </ul>
+          <div class="right-content-part">
+            <div class="details-content">
+              <div class="top-part">
+                <div class="name">
+                  <i class="fa-solid fa-user-group user-group"></i>
+                  Superior Engineering
+                </div>
+                <div class="date">
+                  <i class="fa-regular fa-clock"></i>
+                  21/06/2023
+                </div>
+                <div class="view-count">
+                  <i class="fa-regular fa-eye"></i>
+                  1047
+                </div>
+                <div class="comment-count">
+                  <i class="fa-solid fa-comments"></i>
+                  0
+                </div>
+              </div>
+              <div class="middle-part">
+                <p>
+                  With the end of the financial year (EOFY) upon us, there’s no
+                  better time to upgrade your vehicle. Whether you’re looking to
+                  upgrade the suspension in your work car, or kitting out your
+                  weekender with all new accessories to prepare for the
+                  adventures you’ve got planned for the second half of the year
+                  — Superior Engineering is your tax time go-to. 
+                </p>
+                <p>
+                  The team at Superior Engineering can help you assess which
+                  suspension kit and accessories are best suited for your rig
+                  and how to make the most of tax time.
+                </p>
+                <div class="image-block">
+                  <img
+                    src="./assets/images/blog-page/Rectangle 443.png"
+                    alt="blog image"
+                  />
+                </div>
+              </div>
+              <div class="blog-content">
+                <h4>Are you eligible for temporary full expensing?</h4>
+                <p>
+                  For eligible business owners, tax time is the perfect
+                  opportunity to upgrade your work car or business fleet. While
+                  the eligibility criteria and threshold for the government’s
+                  temporary full expensing scheme vary depending on your
+                  business, it does offer a great opportunity to invest in the
+                  best Aussie-made suspension and accessories. For eligible
+                  businesses, the scheme means you can claim an immediate
+                  deduction for the business portion of the cost of an asset,
+                  during the financial year that this asset is first used or
+                  installed and ready for use.
+                </p>
+                <p>
+                  Whether you’re an independent tradie or a business owner —
+                  there’s no better time to upgrade your suspension, install a
+                  4x4 lift kit or get your hands on the latest accessories, give
+                  us a call or chat with our team via our live chat feature. For
+                  more details and to check your eligibility, head to the ATO’s
+                  website.
+                </p>
+              </div>
+              <div class="blog-content">
+                <h4>MAKE YOUR TAX RETURN GO THE DISTANCE</h4>
+                <p>
+                  Found yourself with extra cash after getting your tax return
+                  back? Luckily for you, we’re the experts in helping make those
+                  funds go the distance.  The team at Superior Engineering can
+                  help you assess which suspension kit and accessories are best
+                  suited for your rig and how to make the most of tax time. Get
+                  in touch with our 4x4 experts today.
+                </p>
+                <div class="wrapper">
+                  <div class="share-block">
+                    <p>Share On</p>
+                    <fieldset>
+                      <span>
+                        <img
+                          src="./assets/images/blog-page/eva_facebook-fill.png"
+                          alt="social-link-icons"
+                        />
+                      </span>
+                      <span>
+                        <img
+                          src="./assets/images/blog-page/teenyicons_twitter-solid.png"
+                          alt="social-link-icons"
+                        />
+                      </span>
+                      <span>
+                        <img
+                          src="./assets/images/blog-page/bi_instagram.png"
+                          alt="social-link-icons"
+                        />
+                      </span>
+                    </fieldset>
+                  </div>
+                  <div class="tags">
+                    <p>Tags</p>
+                    <fieldset>
+                      <a href="#">all-season</a>,<a href="#">performance</a>
+                    </fieldset>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="newsletter">
-        <div class="container">
-          <div class="content">
-            <h2 class="title">Join our Newsletter</h2>
-            <div class="field">
-              <input
-                type="email"
-                name="Email"
-                id="Email"
-                class="Email"
-                placeholder="Enter your email address"
-              />
-              <button class="Btn">SUBMIT</button>
+      <section class="comment-section">
+        <div class="custom-row">
+          <div></div>
+          <div class="block-part">
+            <div class="comment-content">
+              <h5>ADD COMMENT</h5>
+              <fieldset>
+                <input type="text" placeholder="Name" />
+                <input type="email" placeholder="Email" />
+              </fieldset>
+              <textarea cols="50" rows="5" placeholder="Comment"></textarea>
+              <button class="btn btn-info">Post Comment</button>
+            </div>
+            <div class="card-block">
+              <div class="comment-card">
+                <div class="image-part">
+                  <img
+                    src="./assets/images/blog-page/Rectangle 452.png"
+                    alt="user-profile"
+                  />
+                </div>
+                <div class="details-part">
+                  <div class="top-bar">
+                    <h6>Cindy Jefferson</h6>
+                    <span></span>
+                    <p>September 13, 2016</p>
+                    <span></span>
+                    <p>2:58 pm</p>
+                  </div>
+
+                  <p class="comment-bar">
+                    Thank you for the awesome rims! I love how new and shiny
+                    they are on my little bmw
+                  </p>
+
+                  <button class="action-bar">
+                    <img
+                      src="./assets/images/blog-page/mdi_reply.png"
+                      alt="reply-icon"
+                    />
+                    <p>Reply</p>
+                  </button>
+                </div>
+              </div>
+              <div class="comment-card">
+                <div class="image-part">
+                  <img
+                    src="./assets/images/blog-page/Rectangle 454.png"
+                    alt="user-profile"
+                  />
+                </div>
+                <div class="details-part">
+                  <div class="top-bar">
+                    <h6>Adam Brown</h6>
+                    <span></span>
+                    <p>September 13, 2016</p>
+                    <span></span>
+                    <p>3:58 pm</p>
+                  </div>
+
+                  <p class="comment-bar">
+                    And i want to thank your tech support guys for the prompt assistance. your team’s great!
+                  </p>
+
+                  <button class="action-bar">
+                    <img
+                      src="./assets/images/blog-page/mdi_reply.png"
+                      alt="reply-icon"
+                    />
+                    <p>Reply</p>
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -1959,5 +2007,6 @@
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/select2.js"></script>
     <script src="./assets/js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
   </body>
 </html>

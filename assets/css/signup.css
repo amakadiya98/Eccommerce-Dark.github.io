@@ -7,6 +7,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .signup-page .main-block .back-btn {
   position: absolute;
   z-index: 10;
@@ -22,6 +23,23 @@
   font-size: 18px;
   text-decoration: none;
 }
+
+.signup-page .main-block .link-btn {
+  position: absolute;
+  z-index: 10;
+  top: 70px;
+  right: 20px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  outline: none;
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 18px;
+  text-decoration: none;
+}
+
 .signup-page .signup-section {
   display: flex;
   justify-content: center;
@@ -38,6 +56,7 @@
   background-color: #393939;
   box-shadow: -8px 4px 50px 0px rgba(0, 0, 0, 0.25);
 }
+
 .signup-section .form-part .heading-block {
   display: flex;
   align-items: center;
@@ -50,6 +69,7 @@
   background-color: #28a5db;
   color: #fff;
 }
+
 .signin-section .form-part .heading-block h5 {
   color: #fff;
   font-family: "Ubuntu";
@@ -59,6 +79,7 @@
   line-height: 115%;
   text-transform: capitalize;
 }
+
 .signin-section .form-part .heading-block p {
   color: #fff;
   font-family: "Poppins";
@@ -67,17 +88,20 @@
   font-weight: 600;
   line-height: normal;
 }
+
 .signup-section .form-part .content-block {
   display: flex;
   width: 100%;
   padding: 50px 35px;
 }
+
 .signup-section .content-block .custom-row {
   display: grid;
   width: 100%;
   grid-template-columns: 60% auto;
   column-gap: 45px;
 }
+
 .content-block .custom-row .left-part,
 .content-block .custom-row .right-part {
   display: flex;
@@ -85,6 +109,7 @@
   gap: 40px;
   width: 100%;
 }
+
 .content-block .input-group {
   display: flex;
   width: 100%;
@@ -92,6 +117,7 @@
   align-items: flex-start;
   gap: 18px;
 }
+
 .content-block .input-group h6 {
   color: #fff;
   font-family: "Ubuntu";
@@ -100,9 +126,11 @@
   line-height: 23px;
   text-transform: capitalize;
 }
+
 .content-block .input-group label {
   color: lightgray;
 }
+
 .content-block .input-group input,
 .content-block .input-group select {
   width: 100%;
@@ -115,10 +143,12 @@
   background-color: #1e1c1c;
   color: #fff;
 }
+
 .content-block .input-group input[type="checkbox"] {
   width: 25px;
   height: 25px;
 }
+
 .content-block .input-group fieldset {
   display: flex;
   align-items: center;
@@ -127,6 +157,7 @@
   flex-direction: row;
   width: 100%;
 }
+
 .content-block .input-group fieldset label {
   color: #fff;
   font-family: "Poppins";
@@ -149,14 +180,17 @@
   .signup-page .signin-section .form-part {
     width: 100%;
   }
-  .signin-section .form-part .heading-block > div h3 {
+
+  .signin-section .form-part .heading-block>div h3 {
     font-size: 32px;
     font-weight: 700;
   }
+
   .signup-section .content-block .custom-row {
     grid-template-columns: 100%;
     gap: 40px;
   }
+
   .signup-page .main-block .back-btn {
     top: 70px;
     left: 15px;
@@ -168,44 +202,70 @@
     padding: 50px 85px;
   }
 }
+
 @media (max-width: 620px) {
   .signup-page .main-block {
     padding-top: 42px;
   }
 
   .signup-page .signup-section {
-    padding: 40px 20px;
+    padding: 50px 20px;
   }
+
   .signup-page .main-block .back-btn {
     top: 50px;
     left: 15px;
   }
+
+  .signup-page .main-block .link-btn {
+    top: 50px;
+  }
+
   .signup-section .form-part .content-block {
     padding: 20px;
   }
+
   .content-block .input-group fieldset {
     flex-direction: column;
     gap: 10px;
   }
+
   .signup-section .form-part .heading-block {
     padding: 15px 0;
   }
+
   .content-block .input-group {
     gap: 10px;
   }
+
   .content-block .custom-row .left-part,
   .content-block .custom-row .right-part {
     gap: 25px;
   }
-  .content-block .input-group input, .content-block .input-group select{
+
+  .content-block .input-group input,
+  .content-block .input-group select {
     font-size: 14px;
     padding: 12px;
   }
-  .content-block .input-group fieldset label{
+
+  .content-block .input-group fieldset label {
     font-size: 14px;
   }
-  .content-block .input-group input[type="checkbox"]{
+
+  .content-block .input-group input[type="checkbox"] {
     width: 20px;
     height: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .signup-page .signup-section {
+    padding: 70px 20px;
+  }
+
+  .signup-page .main-block .link-btn {
+    top: 74px;
+    left: 15px;
   }
 }
