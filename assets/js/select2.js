@@ -47,25 +47,41 @@ $(document).ready(function () {
       if (!country.image) {
         return country.text;
       }
-      return $(
-        '<span><img class="flag-icon" src="' +
-          country.image +
-          '" /> ' +
-          country.text +
-          "</span>"
-      );
+        return $(
+          '<span><img class="flag-icon" src="' +
+            country.image +
+            '" /> ' +
+            country.text +
+            "</span>"
+        );
     }
 
     function formatSelectedCountry(country) {
       if (!country.image) {
         return country.text;
       }
-      return $(
-        '<span><img class="flag-icon" src="' +
-          country.image +
-          '" /> ' +
-          country.text +
-          "</span>"
-      );
+      if ($(window).width() < 1080) {
+        return $(
+          '<span><img class="flag-icon" src="' +
+            country.image +
+            '" /></span>'
+        );
+      } else {
+        return $(
+          '<span><img class="flag-icon" src="' +
+            country.image +
+            '" /> ' +
+            country.text +
+            "</span>"
+        );
+      }
     }
+    $(window).on('resize', function() {
+      $(".country-select").select2({
+        templateSelection: formatSelectedCountry
+      });
+    });
+  
   });
+
+  
