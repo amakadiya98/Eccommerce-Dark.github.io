@@ -15,11 +15,19 @@
     <link rel="stylesheet" href="./assets/css/owl.carousel.min.css" />
     <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css" />
     <link rel="stylesheet" href="./assets/css/common.css" />
-    <link rel="stylesheet" href="./assets/css/signup.css" />
+    <link rel="stylesheet" href="./assets/css/home.css" />
+    <link rel="stylesheet" href="./assets/css/checkout.css" />
     <title>Home</title>
   </head>
-  <body class="signup-page">
+
+  <body class="cart-page">
     <header class="header-section">
+      <div class="experince-tab">
+        <div class="text-content">
+          <img src="./assets/images/experince-icon.svg" alt="experice" />
+          <p>20+ Years of experience in the 4X4 industry!</p>
+        </div>
+      </div>
       <nav>
         <div class="left-nav">
           <button class="menu-button">
@@ -1324,76 +1332,650 @@
           </div>
         </div>
       </section>
+      <section class="sub-header-section">
+        <div class="sub-main-first">
+          <div class="sub-first-conta">
+            <img src="./assets/images/header/rego.svg" alt="Rego" />
+            <p>Search By Rego</p>
+          </div>
+
+          <div class="sub-input-box">
+            <img src="./assets/images/header/input rego.svg" alt="input rego" />
+            <input type="text" />
+          </div>
+
+          <div class="sub-input-select">
+            <select>
+              <option value="">Select Region</option>
+              <option value="">Region 1</option>
+              <option value="">Region 2</option>
+              <option value="">Region 3</option>
+              <option value="">Region 4</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="sub-main-second">
+          <div class="sub-second-first">
+            <p>Find</p>
+            <span>OR</span>
+          </div>
+          <div class="sub-second-second">
+            <img src="./assets/images/header/vehicle.svg" alt="vehicle" />
+            <p>Search By Vehicle</p>
+          </div>
+        </div>
+      </section>
+      <section class="sub-header-mobile">
+        <div class="mobile-sub-first">
+          <button class="mobile-common-btn mobile-rego active" id="rego">
+            <img src="./assets/images/header/rego.svg" alt="Rego" />
+            <p>Search By Rego</p>
+          </button>
+          <span class="h-line"></span>
+          <button class="mobile-common-btn mobile-vehicle" id="vehicle">
+            <img src="./assets/images/header/vehicle.svg" alt="vehicle" />
+            <p>Search By Vehicle</p>
+          </button>
+        </div>
+        <div class="mobile-sub-second">
+          <button class="primary-btn">Reset</button>
+          <button class="primary-btn with-icon" id="my-garagebtn">
+            <img src="./assets/images/header/vehicle.svg" alt="vehicle" />
+            <p>MY GARAGE</p>
+          </button>
+        </div>
+        <div class="form-block rego">
+          <div class="input-block">
+            <div class="input-group">
+              <select name="Rego" id="rego" class="rego-select">
+                <option value="0">REGO Number:</option>
+                <option value="1">rego 1</option>
+                <option value="2">rego 2</option>
+                <option value="3">rego 3</option>
+                <option value="4">rego 4</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <select name="Region" id="region" class="region-select">
+                <option value="0">--Select Region--</option>
+                <option value="1">rego 1</option>
+                <option value="2">rego 2</option>
+                <option value="3">rego 3</option>
+                <option value="4">rego 4</option>
+              </select>
+            </div>
+            <button class="primary-btn">submit</button>
+          </div>
+        </div>
+        <div class="form-block vehicle">
+          <div class="input-block">
+            <div class="input-group">
+              <input type="text" placeholder="MAKE :" />
+            </div>
+            <div class="input-group">
+              <select class="rego-select">
+                <option value="0">MODEL:</option>
+                <option value="1">rego 1</option>
+                <option value="2">rego 2</option>
+                <option value="3">rego 3</option>
+                <option value="4">rego 4</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <select class="rego-select">
+                <option value="0">SERIES:</option>
+                <option value="1">rego 1</option>
+                <option value="2">rego 2</option>
+                <option value="3">rego 3</option>
+                <option value="4">rego 4</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <select class="region-select">
+                <option value="0">CONFIG</option>
+                <option value="1">rego 1</option>
+                <option value="2">rego 2</option>
+                <option value="3">rego 3</option>
+                <option value="4">rego 4</option>
+              </select>
+            </div>
+            <button class="primary-btn">submit</button>
+          </div>
+        </div>
+      </section>
+      <section class="my-garage-filter-section">
+        <div class="filter-modal without-login">
+          <div class="modal-heading">
+            <h5>Select to app.(Go to MYy Garage)</h5>
+            <button class="filter-modal-close">X</button>
+          </div>
+          <div class="filter-content">
+            <p class="content-text">
+              You have already saved this filter. Below is the list of filters.
+              Below is the list of filters,
+            </p>
+            <fieldset>
+              <div class="input-group">
+                <label>Email</label>
+                <input type="text" />
+              </div>
+              <div class="input-group">
+                <label>Password</label>
+                <input type="password" />
+              </div>
+            </fieldset>
+            <div class="d-flex justify-content-end">
+              <button class="btn btn-info cyan-btn" id="filter-login-btn">login</button>
+            </div>
+          </div>
+        </div>
+        <div class="filter-modal with-login hide">
+          <div class="modal-heading">
+            <h5>Select to app.(Go to MYy Garage)</h5>
+            <button class="filter-modal-close" >X</button>
+          </div>
+          <div class="filter-content">
+            <p class="content-text">
+              You have already saved this filter. Below is the list of filters.
+              Below is the list of filters,
+            </p>
+            <fieldset>
+              <div class="input-group">
+                <input type="text" />
+                <button class="btn btn-info cyan-btn">Add</button>
+              </div>
+              <ul>
+                <li><p>category_1</p><button  class="btn btn-transparent"><img src="./assets/images/common/Delete.svg" alt="delete" /></button></li>
+                <li><p>category_2</p><button  class="btn btn-transparent"><img src="./assets/images/common/Delete.svg" alt="delete" /></button></li>
+                <li><p>category_3</p><button  class="btn btn-transparent"><img src="./assets/images/common/Delete.svg" alt="delete" /></button></li>
+                <li><p>category_4</p><button  class="btn btn-transparent"><img src="./assets/images/common/Delete.svg" alt="delete" /></button></li>
+              </ul>
+            </fieldset>
+          </div>
+        </div>
+      </section>
     </header>
     <main class="main-block">
-      <a class="back-btn" href="./login.html">
-        <i class="fas fa-chevron-left" style="font-size: 10px"></i>Back
-      </a>
-      <section class="signup-section">
-        <div class="form-part">
-          <div class="heading-block">
-            <h5>Welcome</h5>
-            <p>Please enter your details</p>
-          </div>
-          <div class="content-block">
-            <div class="custom-row">
-              <div class="left-part">
-                <div class="input-group">
-                  <h6>Your Personal Details</h6>
-                  <fieldset>
-                    <input type="text" placeholder="first name" />
-                    <input type="text" placeholder="last name" />
-                  </fieldset>
-                  <input type="email" placeholder="email" />
-                  <fieldset>
-                    <input type="text" placeholder="phone number" />
-                    <input type="text" placeholder="landine number" />
-                  </fieldset>
-                </div>
-                <div class="input-group">
-                  <h6>Password</h6>
-                  <input type="password" placeholder="password" />
-                  <input type="password" placeholder="password" />
-                </div>
-                <div class="input-group">
-                  <h6>how did you hear about us?</h6>
-                  <select name="reason" id="reason">
-                    <option value="0" selected>Please Select</option>
-                  </select>
-                  <fieldset class="mt-2 flex-row">
-                    <input type="checkbox" id="1"/> <label for="1">I wish to subscribe to the % newsletter</label>
-                  </fieldset>
-                  <fieldset class="flex-row">
-                    <input type="checkbox" id="1"/> <label for="1">I wish to subscribe to Sms marketing</label>
-                  </fieldset>
-                  <fieldset class="flex-row">
-                    <input type="checkbox" id="1"/> <label for="1">My delivery & billing address are same</label>
-                  </fieldset>
+      <section class="content-section">
+        <div class="page-nav-part">
+          <a href="./cartPage.html" class="next-page-link active">CART</a>
+          <span class="dot-line"></span>
+          <a href="./checkoutPage.html" class="next-page-link">SHIPPING</a>
+          <span class="dot-line"></span>
+          <a href="#" class="next-page-link">PAYMENT</a>
+        </div>
+        <div class="custom-row">
+          <div class="product-block">
+            <div class="theme-accordian-block">
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseOne"
+                      aria-expanded="true"
+                      aria-controls="flush-collapseOne"
+                    >
+                      Product details
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseOne"
+                    class="accordion-collapse collapse show"
+                    aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="item-inside-accordion">
+                      <div class="top-selection-part">
+                        <div class="left-selection">
+                          <input
+                            type="checkbox"
+                            name="all-item"
+                            id="all-item"
+                            checked
+                          />
+                          <label for="all-item">3/3 Items Selected</label>
+                        </div>
+                        <div class="right-button">
+                          <button>remove</button>
+                          <button>move to wishlist</button>
+                        </div>
+                      </div>
+                      <div class="cart-content">
+                        <div class="cart-card">
+                          <div class="image-block">
+                            <input
+                              type="checkbox"
+                              name="item-1"
+                              id="item-1"
+                              checked
+                            />
+                            <img
+                              src="./assets/images/checkout/Rectangle 257.png"
+                              alt="cart-image"
+                            />
+                          </div>
+                          <div class="desc-block">
+                            <p>
+                              AIRBAG PROTECTORS/SPACERS 2-3 INCH LIFT LOWER
+                              SUITABLE FOR NISSAN PATROL GQ/GU (PAIR)
+                            </p>
+                            <span>Low Stock</span>
+                            <div class="quantity">
+                              <button>-</button>
+                              <p>1</p>
+                              <button>+</button>
+                            </div>
+                            <h5>$130.00</h5>
+                          </div>
+                        </div>
+                        <div class="cart-card">
+                          <div class="image-block">
+                            <input
+                              type="checkbox"
+                              name="item-1"
+                              id="item-1"
+                              checked
+                            />
+                            <img
+                              src="./assets/images/checkout/Rectangle 257 (1).png"
+                              alt="cart-image"
+                            />
+                          </div>
+                          <div class="desc-block">
+                            <p>
+                              AIRBAG PROTECTORS/SPACERS 2-3 INCH LIFT LOWER
+                              SUITABLE FOR NISSAN PATROL GQ/GU (PAIR)
+                            </p>
+                            <span>Low Stock</span>
+                            <div class="quantity">
+                              <button>-</button>
+                              <p>2</p>
+                              <button>+</button>
+                            </div>
+                            <h5>$260.00</h5>
+                          </div>
+                        </div>
+                        <div class="cart-card">
+                          <div class="image-block">
+                            <input
+                              type="checkbox"
+                              name="item-1"
+                              id="item-1"
+                              checked
+                            />
+                            <img
+                              src="./assets/images/checkout/Rectangle 257 (2).png"
+                              alt="cart-image"
+                            />
+                          </div>
+                          <div class="desc-block">
+                            <p>
+                              AIRBAG PROTECTORS/SPACERS 2-3 INCH LIFT LOWER
+                              SUITABLE FOR NISSAN PATROL GQ/GU (PAIR)
+                            </p>
+                            <span>Low Stock</span>
+                            <div class="quantity">
+                              <button>-</button>
+                              <p>1</p>
+                              <button>+</button>
+                            </div>
+                            <h5>$130.00</h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div class="right-part">
-                <div class="input-group">
-                  <h6>address</h6>
-                  <input type="text" placeholder="company" />
-                  <input type="text" placeholder="address 1" />
-                  <select name="city" id="city">
-                    <option value="0" selected>city</option>
-                  </select>
-                  <select name="country" id="country">
-                    <option value="0" selected>country</option>
-                  </select>
-                  <select name="state/region" id="state-region">
-                    <option value="0" selected>state/region</option>
-                  </select>
-                  <input type="text" placeholder="suburb" />
-                  <input type="text" placeholder="Postcode/Zip" />
+            </div>
+            <!-- <ul class="payment-options">
+              <li class="payment-type">
+                <fieldset>
+                  <button>
+                    <img
+                      src="./assets/images/productInfo/i-rounded.svg"
+                      alt="i-details"
+                    />
+                  </button>
+                  <p>or 4 fortnightly payments of $ 32.50 with more info</p>
+                </fieldset>
+                <div class="image-block">
+                  <img
+                    src="./assets/images/productInfo/afterpay.svg"
+                    alt="afterpay"
+                  />
                 </div>
-                <div class="input-group">
-                  <h6>Captcha</h6>
-                  <label>please complete the captcha validation below</label>
-                  <fieldset style="align-items: flex-start;" class="flex-row"><input type="checkbox" name="3" id="3" /><label for="3">i have read & agreed the <b style="font-weight: 700;">Superior Engineering Privacy Policy</b></label></fieldset>
+              </li>
+              <li class="payment-type">
+                <fieldset>
+                  <button>
+                    <img
+                      src="./assets/images/productInfo/i-rounded.svg"
+                      alt="i-details"
+                    />
+                  </button>
+                  <p>5 fortnightly payments of $26.00 with</p>
+                </fieldset>
+                <div class="image-block">
+                  <img src="./assets/images/productInfo/humm.svg" alt="humm" />
                 </div>
-                <button class="btn btn-info" style="color: white;background-color: #28A5D8;">Continue</button>
+              </li>
+              <li class="payment-type">
+                <fieldset>
+                  <button>
+                    <img
+                      src="./assets/images/productInfo/i-rounded.svg"
+                      alt="i-details"
+                    />
+                  </button>
+                  <p>pay in 4 interest-free payments of $32.50</p>
+                </fieldset>
+                <div class="image-block">
+                  <img
+                    src="./assets/images/productInfo/paypal.svg"
+                    alt="paypal"
+                  />
+                </div>
+              </li>
+              <li class="payment-type">
+                <fieldset>
+                  <button>
+                    <img
+                      src="./assets/images/productInfo/i-rounded.svg"
+                      alt="i-details"
+                    />
+                  </button>
+                  <p>buy now, pay later</p>
+                </fieldset>
+                <div class="image-block">
+                  <img src="./assets/images/productInfo/zip.svg" alt="zip" />
+                </div>
+              </li>
+            </ul> -->
+          </div>
+          <div class="price-block">
+            <div class="price-card">
+              <h5>PRICE DETAILS</h5>
+              <div class="amount-block">
+                <fieldset>
+                  <p>Sub-Total</p>
+                  <p>$520.00</p>
+                </fieldset>
+                <fieldset>
+                  <p>GST</p>
+                  <p>$70.19</p>
+                </fieldset>
+                <hr />
+                <fieldset>
+                  <h6>Total Amount</h6>
+                  <h6>$590.19</h6>
+                </fieldset>
+              </div>
+              <div class="button-block">
+                <button class="btn btn-outline-info" style="font-weight: 700;">GUEST CHECKOUT</button>
+                <button class="btn btn-info" style="color: #fff;font-weight: 700;">CHECKOUT</button>
+              </div>
+            </div>
+            <ul class="payment-options">
+              <li class="payment-type">
+                <fieldset>
+                  <button>
+                    <img
+                      src="./assets/images/productInfo/i-rounded.svg"
+                      alt="i-details"
+                    />
+                  </button>
+                  <p>or 4 fortnightly payments of $ 32.50 with more info</p>
+                </fieldset>
+                <div class="image-block">
+                  <img
+                    src="./assets/images/productInfo/afterpay.svg"
+                    alt="afterpay"
+                  />
+                </div>
+              </li>
+              <li class="payment-type">
+                <fieldset>
+                  <button>
+                    <img
+                      src="./assets/images/productInfo/i-rounded.svg"
+                      alt="i-details"
+                    />
+                  </button>
+                  <p>5 fortnightly payments of $26.00 with</p>
+                </fieldset>
+                <div class="image-block">
+                  <img src="./assets/images/productInfo/humm.svg" alt="humm" />
+                </div>
+              </li>
+              <li class="payment-type">
+                <fieldset>
+                  <button>
+                    <img
+                      src="./assets/images/productInfo/i-rounded.svg"
+                      alt="i-details"
+                    />
+                  </button>
+                  <p>pay in 4 interest-free payments of $32.50</p>
+                </fieldset>
+                <div class="image-block">
+                  <img
+                    src="./assets/images/productInfo/paypal.svg"
+                    alt="paypal"
+                  />
+                </div>
+              </li>
+              <li class="payment-type">
+                <fieldset>
+                  <button>
+                    <img
+                      src="./assets/images/productInfo/i-rounded.svg"
+                      alt="i-details"
+                    />
+                  </button>
+                  <p>buy now, pay later</p>
+                </fieldset>
+                <div class="image-block">
+                  <img src="./assets/images/productInfo/zip.svg" alt="zip" />
+                </div>
+              </li>
+            </ul>
+            <div class="theme-accordian-block">
+              <div
+                class="accordion accordion-flush"
+                id="accordionFlushExample1"
+              >
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingtwo">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapsetwo"
+                      aria-expanded="false"
+                      aria-controls="flush-collapsetwo"
+                    >
+                      ESTIMATE SHIPPING
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapsetwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingtwo"
+                    data-bs-parent="#accordionFlushExample1"
+                  >
+                    <div class="item-inside-accordion">
+                      <p>content</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="theme-accordian-block">
+              <div
+                class="accordion accordion-flush"
+                id="accordionFlushExample1"
+              >
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingthree">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapsethree"
+                      aria-expanded="false"
+                      aria-controls="flush-collapsethree"
+                    >
+                      COUPONS
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapsethree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingthree"
+                    data-bs-parent="#accordionFlushExample1"
+                  >
+                    <div class="item-inside-accordion">
+                      <p>content</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="theme-accordian-block">
+              <div
+                class="accordion accordion-flush"
+                id="accordionFlushExample1"
+              >
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingthree">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapsethree"
+                      aria-expanded="false"
+                      aria-controls="flush-collapsethree"
+                    >
+                      GIFT CARDS
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapsethree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingthree"
+                    data-bs-parent="#accordionFlushExample1"
+                  >
+                    <div class="item-inside-accordion">
+                      <p>content</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="common-recommended-section">
+        <div class="custom-container">
+          <div class="section-heading-block">
+            <h3 class="section-heading-text">You may also like</h3>
+            <span class="head-text-underline"></span>
+          </div>
+          <!-- slider-part -->
+          <div class="list-block">
+            <div class="owl-carousel owl-theme">
+              <div class="item-box">
+                <a href="#" class="product-list-card slider-product">
+                  <div class="ribbon">Low Stock</div>
+                  <div class="image-part">
+                    <img
+                      src="./assets/images/common/recommended-1.svg"
+                      alt="product"
+                    />
+                  </div>
+                  <div class="product-info-body">
+                    <p>
+                      AIRBAG PROTECTORS/SPACERS 2-3 INCH LIFT LOWER SUITABLE FOR
+                      NISSAN PATROL GQ/GU (PAIR)
+                    </p>
+                    <h6>$130.00</h6>
+                  </div>
+                  <div class="product-add-btn">
+                    <img src="./assets/images/cart-white.svg" class="me-2" />add
+                    to Cart
+                  </div>
+                </a>
+              </div>
+              <div class="item-box">
+                <a href="#" class="product-list-card slider-product">
+                  <div class="ribbon highstock">High Stock</div>
+                  <div class="image-part">
+                    <img
+                      src="./assets/images/common/recommended-2.svg"
+                      alt="product"
+                    />
+                  </div>
+                  <div class="product-info-body">
+                    <p>
+                      AIRBAG PROTECTORS/SPACERS 2-3 INCH LIFT LOWER SUITABLE FOR
+                      NISSAN PATROL GQ/GU (PAIR)
+                    </p>
+                    <h6>$130.00</h6>
+                  </div>
+                  <div class="product-add-btn">
+                    <img src="./assets/images/cart-white.svg" class="me-2" />add
+                    to Cart
+                  </div>
+                </a>
+              </div>
+              <div class="item-box">
+                <a href="#" class="product-list-card slider-product">
+                  <div class="ribbon">Low Stock</div>
+                  <div class="image-part">
+                    <img
+                      src="./assets/images/common/recommended-3.svg"
+                      alt="product"
+                    />
+                  </div>
+                  <div class="product-info-body">
+                    <p>
+                      AIRBAG PROTECTORS/SPACERS 2-3 INCH LIFT LOWER SUITABLE FOR
+                      NISSAN PATROL GQ/GU (PAIR)
+                    </p>
+                    <h6>$130.00</h6>
+                  </div>
+                  <div class="product-add-btn">
+                    <img src="./assets/images/cart-white.svg" class="me-2" />add
+                    to Cart
+                  </div>
+                </a>
+              </div>
+              <div class="item-box">
+                <a href="#" class="product-list-card slider-product">
+                  <div class="ribbon">Low Stock</div>
+                  <div class="image-part">
+                    <img
+                      src="./assets/images/common/recommended-4.svg"
+                      alt="product"
+                    />
+                  </div>
+                  <div class="product-info-body">
+                    <p>
+                      AIRBAG PROTECTORS/SPACERS 2-3 INCH LIFT LOWER SUITABLE FOR
+                      NISSAN PATROL GQ/GU (PAIR)
+                    </p>
+                    <h6>$130.00</h6>
+                  </div>
+                  <div class="product-add-btn">
+                    <img src="./assets/images/cart-white.svg" class="me-2" />add
+                    to Cart
+                  </div>
+                </a>
               </div>
             </div>
           </div>
@@ -1401,6 +1983,246 @@
       </section>
     </main>
     <footer class="footer-section">
+      <div class="top-part">
+        <div class="logo-part">
+          <a class="logo" href="./index.html">
+            <img src="./assets/images/logo.svg" alt="superior-logo" />
+          </a>
+          <div class="line"></div>
+        </div>
+        <div class="content-part">
+          <div class="row custom-row">
+            <div class="col-lg-3 col-sm-6 col-12">
+              <div class="product-part">
+                <h5 class="category-heading">4X4 SUSPENSION</h5>
+                <ul class="category-list">
+                  <li><a href="#" class="category-link">Radius Arms</a></li>
+                  <li><a href="#" class="category-link">Air Bags</a></li>
+                  <li><a href="#" class="category-link">Bushes</a></li>
+                  <li><a href="#" class="category-link">Coil Conversion</a></li>
+                  <li>
+                    <a href="#" class="category-link"
+                      >coil Spacers/Struct Spacers</a
+                    >
+                  </li>
+                  <li><a href="#" class="category-link">coil Springs</a></li>
+                  <li><a href="#" class="category-link">Control Arms</a></li>
+                  <li>
+                    <a href="#" class="category-link">Suspension Lift kits</a>
+                  </li>
+                  <li>
+                    <a href="#" class="category-link">Gym/gcm Upgrades</a>
+                  </li>
+                  <li><a href="#" class="category-link">Leaf Springs</a></li>
+                </ul>
+                <a class="more-btn" href="#">PLUS MORE...</a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-12">
+              <div class="product-part">
+                <h5 class="category-heading">4x4 DRIVELINE</h5>
+                <ul class="category-list">
+                  <li>
+                    <a href="#" class="category-link"
+                      >Brake Line & Companents</a
+                    >
+                  </li>
+                  <li><a href="#" class="category-link">Axles & Cv's</a></li>
+                  <li>
+                    <a href="#" class="category-link"
+                      >Brake Line & Compone...</a
+                    >
+                  </li>
+                  <li><a href="#" class="category-link">Diff Gears sets</a></li>
+                  <li>
+                    <a href="#" class="category-link"
+                      >Diff housing & Accessories</a
+                    >
+                  </li>
+                  <li><a href="#" class="category-link">Steering</a></li>
+                  <li>
+                    <a href="#" class="category-link">Diff Rebult Kits </a>
+                  </li>
+                  <li>
+                    <a href="#" class="category-link">Driveline </a>
+                  </li>
+                  <li>
+                    <a href="#" class="category-link">Lockers</a>
+                  </li>
+                </ul>
+                <a class="more-btn" href="#">PLUS MORE...</a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-12">
+              <div class="product-part">
+                <h5 class="category-heading">4x4 ACCESSORIES</h5>
+                <ul class="category-list">
+                  <li>
+                    <a href="#" class="category-link">Bull Bars </a>
+                  </li>
+                  <li>
+                    <a href="#" class="category-link">Air Compressors 12v </a>
+                  </li>
+                  <li>
+                    <a href="#" class="category-link"
+                      >Air tanks & Accessories
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="category-link">Awinings/tents/swags </a>
+                  </li>
+                  <li>
+                    <a href="#" class="category-link"
+                      >Batteries & Dual Battery A...
+                    </a>
+                  </li>
+                  <li><a href="#" class="category-link">Body Lifts </a></li>
+                  <li>
+                    <a href="#" class="category-link">Camping Accessories </a>
+                  </li>
+                  <li>
+                    <a href="#" class="category-link">Camping Lights </a>
+                  </li>
+                  <li>
+                    <a href="#" class="category-link">Car Care Products</a>
+                  </li>
+                </ul>
+                <a class="more-btn" href="#">PLUS MORE...</a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-12">
+              <div class="product-part">
+                <h5 class="category-heading">BUGGY/RACING</h5>
+                <ul class="category-list">
+                  <li>
+                    <a href="#" class="category-link"
+                      >Radios & Intercom Syste...</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="category-link">
+                      Air Compressors/tanks An...
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="category-link">Coilover Springs </a>
+                  </li>
+                  <li>
+                    <a href="#" class="category-link"
+                      >Diff Housings & Accesso...
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="category-link">Dimple Dies </a>
+                  </li>
+                  <li>
+                    <a href="#" class="category-link">Fuel Tanks & Storage </a>
+                  </li>
+                  <li>
+                    <a href="#" class="category-link">Heim Joints & Parts </a>
+                  </li>
+                  <li>
+                    <a href="#" class="category-link">Helmets & Accessories </a>
+                  </li>
+                  <li>
+                    <a href="#" class="category-link">Limiting Straps</a>
+                  </li>
+                  <li>
+                    <a href="#" class="category-link"
+                      >Radios & Intercom Syste...</a
+                    >
+                  </li>
+                </ul>
+                <a class="more-btn" href="#">PLUS MORE...</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="info-part">
+          <div class="row custom-row">
+            <div class="col-lg-8 col-12">
+              <div class="pages-link-part">
+                <a href="#" class="p-link">PRODUCTS</a>
+                <a href="#" class="p-link">SHOP</a>
+                <a href="#" class="p-link">STOCKISTS</a>
+                <a href="#" class="p-link">HELP</a>
+                <a href="#" class="p-link">CONTACT</a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-12">
+              <div class="socialmedia-link-part">
+                <a href="#" class="f-link"
+                  ><img
+                    src="./assets/images/footer/facebook white.svg"
+                    alt="facebook-icon"
+                /></a>
+                <a href="#" class="f-link"
+                  ><img
+                    src="./assets/images/footer/insta white.png"
+                    alt="instagram-icon"
+                /></a>
+                <a href="#" class="f-link"
+                  ><img
+                    src="./assets/images/footer/tiktok white.svg"
+                    alt="tiktok-icon"
+                /></a>
+                <a href="#" class="f-link"
+                  ><img
+                    src="./assets/images/footer/youtube white.svg"
+                    alt="youtube-icon"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="row custom-row">
+            <div class="col-lg-8 col-12">
+              <div class="payment-support">
+                <div class="box">
+                  <h6>Safe and Secure Shopping</h6>
+                  <span class="divider"></span>
+                  <div class="payment-gateways">
+                    <img
+                      src="./assets/images/footer/visa.svg"
+                      alt="visa card"
+                    />
+                    <img src="./assets/images/footer/strips.svg" alt="stripe" />
+                    <img
+                      src="./assets/images/footer/razorpay.svg"
+                      alt="razorpay"
+                    />
+                    <img
+                      src="./assets/images/footer/Google-Pay.svg"
+                      alt="google pay"
+                    />
+                    <img src="./assets/images/footer/paypal.svg" alt="paypal" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-12">
+              <div class="company-details">
+                <div class="detail-group">
+                  <img src="./assets/images/footer/phone.svg" alt="call" />
+                  <a href="tel:+18989209282" class="detail">+1 898 920 9282</a>
+                </div>
+                <div class="detail-group">
+                  <img src="./assets/images/footer/EMAIL.svg" alt="website" />
+                  <a href="#" class="detail">www.company.com</a>
+                </div>
+                <div class="detail-group">
+                  <img
+                    src="./assets/images/footer/location.svg"
+                    alt="address"
+                  />
+                  <p class="detail">
+                    8 Chrome Crt Burpengary <br />QLD 4505 Australia
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="bottom-part">
         <div class="container">
           <div class="inner-content">
@@ -1423,8 +2245,39 @@
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="./assets/js/owl.carousel.min.js"></script>
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/select2.js"></script>
     <script src="./assets/js/script.js"></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        items: 4,
+        margin: 20,
+        loop: true,
+        nav: true,
+        responsive: {
+          0: {
+            items: 1,
+            dots: true,
+            nav: false,
+          },
+          620: {
+            items: 2,
+            nav: true,
+            dots: false,
+          },
+          1024: {
+            items: 3,
+            nav: true,
+            dots: false,
+          },
+          1280: {
+            items: 4,
+            nav: true,
+            dots: false,
+          },
+        },
+      });
+    </script>
   </body>
 </html>

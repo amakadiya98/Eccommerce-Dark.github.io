@@ -21,8 +21,9 @@
   color: #fff;
 }
 
-.searchByRego-page .sub-input-box img {
+.searchByRego-page .main-block .optionSection .sub-input-box img {
   width: 100%;
+  height: auto;
 }
 
 .main-block .optionSection .head {
@@ -267,7 +268,10 @@
   .newsletter .content .title,
   .look-up-section .head .head-text,
   .searchByRego-page .common-banner-section .banner-content h2 {
-    font-size: 44px;
+    font-size: 32px;
+  }
+  .common-banner-section .banner-content .breadcrumb .breadcrumb-item{
+    font-size: 18px;
   }
 }
 @media (max-width: 1280px) {

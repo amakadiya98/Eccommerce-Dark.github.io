@@ -38,13 +38,28 @@
   height: 100%;
   width: 100%;
 }
-.main-block .hero-section .carousel-inner .carousel-item .banner-carousal-text p{
+.main-block
+  .hero-section
+  .carousel-inner
+  .carousel-item
+  .banner-carousal-text
+  p {
   margin-bottom: 1rem;
 }
-.main-block .hero-section .carousel-inner .carousel-item .banner-carousal-text h1{
+.main-block
+  .hero-section
+  .carousel-inner
+  .carousel-item
+  .banner-carousal-text
+  h1 {
   margin-bottom: 1.2rem;
 }
-.main-block .hero-section .carousel-inner .carousel-item .banner-carousal-text h4{
+.main-block
+  .hero-section
+  .carousel-inner
+  .carousel-item
+  .banner-carousal-text
+  h4 {
   margin-bottom: 1rem;
 }
 
@@ -90,7 +105,7 @@
 }
 .category-section .content .product-box .product-details h5 {
   color: #fff;
-  font-size: 3p0x;
+  font-size: 30px;
   font-family: Ubuntu;
   font-weight: 500;
 }
@@ -116,13 +131,13 @@
   justify-content: center;
   gap: 10px;
 }
-.our-product-section .product-list-part .nav-tabs .nav-link{
+.our-product-section .product-list-part .nav-tabs .nav-link {
   border: none;
   padding: 0;
 }
 .our-product-section .product-list-part .types {
   color: #928f8f;
-  font-size: 24px;
+  font-size: 20px;
   font-family: "Ubuntu";
   font-weight: 500;
   text-transform: uppercase;
@@ -196,9 +211,9 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 30px;
-  height: 850px;
-  min-height: 850px;
-  max-height: 850px;
+  height: 820px;
+  min-height: 820px;
+  max-height: 820px;
   padding: 8px 8px 16px;
   border-radius: 6px;
   background: #1e1c1c;
@@ -236,7 +251,7 @@
   .desc-part
   .desc-text {
   color: #fff;
-  font-size: 20px;
+  font-size: 16px;
   font-family: Poppins;
   font-weight: 400;
   letter-spacing: -0.3px;
@@ -262,7 +277,7 @@
   .price-part
   span {
   color: #fff;
-  font-size: 24px;
+  font-size: 20px;
   font-family: Ubuntu;
   font-weight: 400;
   letter-spacing: -0.36px;
@@ -360,11 +375,11 @@
 
 .customer-review .left-part .customer-say {
   text-align: center;
-  font-size: 50px;
+  font-size: 36px;
   font-family: Ubuntu;
   font-style: normal;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 48px;
 }
 
 .customer-review .left-part .button-part {
@@ -414,9 +429,9 @@
 .blog-post-section .blog-list-part .blog-card {
   display: flex;
   flex: 1;
-  height: 870px;
-  min-height: 870px;
-  max-height: 870px;
+  height: 830px;
+  min-height: 830px;
+  max-height: 830px;
   flex-direction: column;
   justify-content: space-between;
   border-radius: 6px;
@@ -456,7 +471,7 @@
   object-position: center;
 }
 .blog-post-section .blog-card .blog-content-part .blog-title {
-  font-size: 24px;
+  font-size: 20px;
   font-family: Ubuntu;
   font-style: normal;
   font-weight: 700;
@@ -474,7 +489,7 @@
 }
 .blog-post-section .blog-card .blog-details .blog-text {
   color: #fff;
-  font-size: 24px;
+  font-size: 20px;
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
@@ -576,7 +591,8 @@
   padding-bottom: 15px;
   background: #1e1c1c;
 }
-.insta-details p, .insta-details span {
+.insta-details p,
+.insta-details span {
   color: #fff;
 }
 .insta-one:hover {
@@ -805,9 +821,9 @@ iframe {
     padding: 10px 43px;
   }
   .our-product-section .product-list-part .list-block .item-box {
-    height: 765px;
-    min-height: 765px;
-    max-height: 765px;
+    height: 720px;
+    min-height: 720px;
+    max-height: 720px;
   }
   .our-product-section
     .product-list-part
@@ -955,19 +971,39 @@ iframe {
   .main-block .shop-btn {
     padding: 10px 33px;
   }
-  .main-block .hero-section .carousel-inner .carousel-item .banner-carousal-text p{
+  .main-block
+    .hero-section
+    .carousel-inner
+    .carousel-item
+    .banner-carousal-text
+    p {
     font-size: 13px;
     margin-bottom: 0.2rem;
   }
-  .main-block .hero-section .carousel-inner .carousel-item .banner-carousal-text h1{
+  .main-block
+    .hero-section
+    .carousel-inner
+    .carousel-item
+    .banner-carousal-text
+    h1 {
     font-size: 33px;
     margin-bottom: 0.3rem;
   }
-  .main-block .hero-section .carousel-inner .carousel-item .banner-carousal-text h4{
+  .main-block
+    .hero-section
+    .carousel-inner
+    .carousel-item
+    .banner-carousal-text
+    h4 {
     font-size: 17px;
     margin-bottom: 0.5rem;
   }
-  .main-block .hero-section .carousel-inner .carousel-item .banner-carousal-text a{
+  .main-block
+    .hero-section
+    .carousel-inner
+    .carousel-item
+    .banner-carousal-text
+    a {
     font-size: 13px;
   }
   .our-product-section .product-list-part .list-block .item-box {
@@ -1095,19 +1131,39 @@ iframe {
 }
 
 @media screen and (max-width: 992px) {
-  .main-block .hero-section .carousel-inner .carousel-item .banner-carousal-text p{
+  .main-block
+    .hero-section
+    .carousel-inner
+    .carousel-item
+    .banner-carousal-text
+    p {
     font-size: 9px;
     margin-bottom: 0.1rem;
   }
-  .main-block .hero-section .carousel-inner .carousel-item .banner-carousal-text h1{
+  .main-block
+    .hero-section
+    .carousel-inner
+    .carousel-item
+    .banner-carousal-text
+    h1 {
     font-size: 23px;
     margin-bottom: 0.2rem;
   }
-  .main-block .hero-section .carousel-inner .carousel-item .banner-carousal-text h4{
+  .main-block
+    .hero-section
+    .carousel-inner
+    .carousel-item
+    .banner-carousal-text
+    h4 {
     font-size: 14px;
     margin-bottom: 0.3rem;
   }
-  .main-block .hero-section .carousel-inner .carousel-item .banner-carousal-text a{
+  .main-block
+    .hero-section
+    .carousel-inner
+    .carousel-item
+    .banner-carousal-text
+    a {
     font-size: 9px;
   }
   .category-section .content {
@@ -1156,14 +1212,28 @@ iframe {
   }
 }
 @media screen and (max-width: 768px) {
-  
-  .main-block .hero-section .carousel-inner .carousel-item .banner-carousal-text p{
+  .main-block
+    .hero-section
+    .carousel-inner
+    .carousel-item
+    .banner-carousal-text
+    p {
     margin-bottom: 5px;
   }
-  .main-block .hero-section .carousel-inner .carousel-item .banner-carousal-text h1{
+  .main-block
+    .hero-section
+    .carousel-inner
+    .carousel-item
+    .banner-carousal-text
+    h1 {
     margin-bottom: 5px;
   }
-  .main-block .hero-section .carousel-inner .carousel-item .banner-carousal-text h4{
+  .main-block
+    .hero-section
+    .carousel-inner
+    .carousel-item
+    .banner-carousal-text
+    h4 {
     margin-bottom: 5px;
   }
   .our-product-section .product-list-part .list-block .item-box,
@@ -1192,10 +1262,14 @@ iframe {
   }
 }
 @media screen and (max-width: 576px) {
-  .main-block .hero-section .carousel-inner .carousel-item .banner-carousal-text{
+  .main-block
+    .hero-section
+    .carousel-inner
+    .carousel-item
+    .banner-carousal-text {
     margin-top: 10px !important;
   }
-  .customer-review .content-part .right-part ul{
+  .customer-review .content-part .right-part ul {
     padding: 0;
     margin: 0;
     width: 100%;
@@ -1369,7 +1443,7 @@ iframe {
   .carousel-item {
     height: 100%;
   }
-  .main-block .hero-section img.banner-image{
+  .main-block .hero-section img.banner-image {
     width: 100%;
     object-position: 72% center;
   }
