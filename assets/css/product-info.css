@@ -393,7 +393,86 @@
   width: 100%;
 }
 
+.product-details .custom-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
+  width: 100%;
+}
 
+.product-details .custom-grid .description-part,
+.product-details .custom-grid .specification-part {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 30px;
+}
+.product-details .custom-grid .description-part .box{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 15px;
+}
+.custom-grid .description-part .title-part,
+.custom-grid .specification-part .title-part{
+  display: flex;
+  padding: 10px;
+  padding-left: 20px;
+  background-color: #28a5d8;
+  color: white;
+  width: 40%;
+  border-radius: 10px;
+}
+.custom-grid .description-part .title-part h6,
+.custom-grid .specification-part .title-part h6{
+  font-size: 24px;
+  font-weight: 500;
+}
+.custom-grid .description-part .content-block,
+.custom-grid .specification-part .content-block{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.custom-grid .specification-part .content-block{
+  background-color: #28a5d811;
+  padding: 10px;
+}
+.custom-grid .description-part .content-block .content-heading {
+  font-size: 20px;
+  font-weight: 500;
+}
+.custom-grid .description-part .content-block .para-text {
+  font-size: 16px;
+  font-weight: 400;
+}
+.custom-grid .description-part .content-block ul{
+  padding: 0;
+  padding-left: 15px;
+}
+.custom-grid .description-part .content-block ul li{
+  list-style-type: disc;
+  padding-left: 5px;
+}
+.custom-grid .description-part .content-block .item-block, 
+.custom-grid .specification-part .content-block .item-block {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.custom-grid .description-part .content-block .item-block .label,
+.custom-grid .specification-part .content-block .item-block .label{
+  min-width: 40%;
+  max-width: 40%;
+  width: 40%;
+  font-size: 16px;
+  font-weight: 400;
+}
+.custom-grid .description-part .content-block .item-block .value{
+  font-size: 16px;
+  font-weight: 400;
+}
 /* ----- responsive css start here ----- */
 @media (max-width: 1400px) {
   .content-section .custom-row {
