@@ -1,3 +1,7 @@
+.searchByRego-page .main-block {
+  padding-top: 150px;
+}
+
 .main-block .optionSection {
   padding: 62px 0;
   background: #393939;
@@ -270,7 +274,7 @@
   .searchByRego-page .common-banner-section .banner-content h2 {
     font-size: 32px;
   }
-  .common-banner-section .banner-content .breadcrumb .breadcrumb-item{
+  .common-banner-section .banner-content .breadcrumb .breadcrumb-item {
     font-size: 18px;
   }
 }
@@ -296,6 +300,12 @@
   }
   .how-to-steps .steps {
     gap: 30px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .searchByRego-page .main-block {
+    padding-top: 170px;
   }
 }
 @media (max-width: 1024px) {
@@ -374,7 +384,16 @@
     top: 18%;
   }
 }
+
+@media (max-width: 620px) {
+  .searchByRego-page .main-block {
+    padding-top: 112px;
+  }
+}
 @media (max-width: 500px) {
+  .searchByRego-page .main-block {
+    padding-top: 96px;
+  }
   .searchByRego-page .sub-input-box input {
     top: 10%;
   }
@@ -410,11 +429,11 @@
     flex-direction: column;
     align-items: center;
   }
-  .newsletter .content .field .Btn{
+  .newsletter .content .field .Btn {
     font-size: 18px;
     padding: 10px 30px;
   }
-  .newsletter .content .field .Email{
+  .newsletter .content .field .Email {
     padding: 10px 30px;
   }
 }
@@ -520,7 +539,7 @@
 .brand-section .content-block .letter-wise-brand-nav .brand-nav {
   color: #fff;
   font-family: "Ubuntu";
-  font-size: 20px;  
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -691,5 +710,5 @@
   }
   .brand-section .brand-lists .list-box ul li {
     font-size: 14px;
-  }  
+  }
 }

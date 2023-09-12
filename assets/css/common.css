@@ -421,8 +421,6 @@ body {
 
 @media (max-width: 620px) {
 
-
-
   .header-section .menu-button img,
   .header-section .close-button img {
     width: 18px;
@@ -1501,7 +1499,7 @@ span.divider {
   }
 
   .sub-header-mobile .form-block {
-    top: 105px;
+    top: 96px;
     padding: 40px 60px;
   }
 
@@ -2764,7 +2762,7 @@ span.divider {
   }
 
   .footer-section .top-part .info-part .pages-link-part .p-link {
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .footer-section .top-part .info-part .custom-row {
@@ -2883,6 +2881,13 @@ span.divider {
   }
 }
 
+@media (max-width: 370px) {
+  .footer-section .top-part .info-part .pages-link-part .p-link,
+  .footer-section .bottom-part .inner-content .left-part p,
+  .footer-section .bottom-part .inner-content .footer-link{
+    font-size: 10px;
+  }
+}
 .main-block .custom-container {
   display: flex;
   flex-direction: column;
@@ -3102,3 +3107,13 @@ span.divider {
 }
 
 /* --- my-garage filter section css start --- */
+
+@media (max-width: 400px) {
+  .my-garage-filter-section .filter-modal {
+    max-width: 100%;
+    width: 100%;
+  }
+  .my-garage-filter-section{
+    padding-left: 25px;
+  }
+}
