@@ -9,7 +9,7 @@
 }
 
 .signup-page .main-block .back-btn {
-  position: absolute;
+  /* position: absolute; */
   z-index: 10;
   top: 70px;
   left: 15px;
@@ -25,7 +25,7 @@
 }
 
 .signup-page .main-block .link-btn {
-  position: absolute;
+  /* position: absolute; */
   z-index: 10;
   top: 76px;
   right: 20px;
@@ -45,12 +45,18 @@
 }
 
 .signup-page .signup-section {
-  display: flex;
+  /* display: flex; */
   justify-content: center;
-  padding: 88px 120px;
+  padding: 28px 120px;
   width: 100vw;
   min-height: 80vh;
   background-color: #1e1c1caa;
+}
+.top-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
 }
 
 .signup-section .form-part {
@@ -260,6 +266,10 @@
   .content-block .input-group input[type="checkbox"] {
     width: 20px;
     height: 20px;
+  }
+  .top-bar{
+    flex-wrap: wrap;
+    gap: 10px;
   }
 }
 
