@@ -27,7 +27,7 @@
 .signup-page .main-block .link-btn {
   position: absolute;
   z-index: 10;
-  top: 70px;
+  top: 76px;
   right: 20px;
   background-color: transparent;
   color: white;
@@ -38,12 +38,16 @@
   align-items: center;
   font-size: 18px;
   text-decoration: none;
+  background-color: #28a5db;
+    padding: 8px 20px;
+    border-radius: 4px;
+    text-transform: capitalize;
 }
 
 .signup-page .signup-section {
   display: flex;
   justify-content: center;
-  padding: 50px 120px;
+  padding: 88px 120px;
   width: 100vw;
   min-height: 80vh;
   background-color: #1e1c1caa;

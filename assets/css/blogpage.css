@@ -20,7 +20,7 @@
 
 .blog-section .custom-row .left-filter-part {
   width: 100%;
-  display: flex;
+  /* display: flex; */
   justify-content: flex-start;
   align-items: flex-start;
 }
@@ -116,7 +116,7 @@
 .blog-section .custom-row .right-content-part .blog-box-part {
   display: grid;
   grid-template-columns: auto auto;
-  margin-top: 70px;
+  margin-top: 42px;
   gap: 75px 38px;
 }
 
@@ -203,8 +203,9 @@
 
 .blog-center-nav{
   display: flex;
-  width: 30%;
-  margin-top: 20px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 .blog-center-nav input{
   padding: 6.5px;
@@ -253,7 +254,7 @@
     max-width: 100%;
   }
   .blog-center-nav{
-    width: 40%;
+    width: 100%;
   }
 }
 
@@ -284,7 +285,7 @@
     padding: 0;
   }
   .blog-center-nav {
-    width: 50%;
+    width: 100%;
 }
 }
 
