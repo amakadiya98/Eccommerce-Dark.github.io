@@ -7,7 +7,7 @@
 }
 
 .main-block .blog-section {
-  padding: 76px 55px 90px;
+  padding: 40px 55px 90px;
   background-color: var(--dark-bg);
   width: 100%;
 }
@@ -203,7 +203,7 @@
 
 .blog-center-nav{
   display: flex;
-  width: 100%;
+  width: 36.8%;
   margin-top: 10px;
   margin-bottom: 30px;
 }
@@ -254,7 +254,7 @@
     max-width: 100%;
   }
   .blog-center-nav{
-    width: 100%;
+    width: 50%;
   }
 }
 
