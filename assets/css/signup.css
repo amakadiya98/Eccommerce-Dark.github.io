@@ -271,6 +271,9 @@
     flex-wrap: wrap;
     gap: 10px;
   }
+  .signup-page .main-block .link-btn{
+    width: 100%;
+  }
 }
 
 @media (max-width: 320px) {
